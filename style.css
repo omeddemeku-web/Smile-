@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 50px;
     background-color: #0b0b0b;
     border-bottom: 1px solid #1a1a1a;
 }
@@ -28,7 +28,7 @@ header {
 }
 
 .logo-icon {
-    font-size: 28px;
+    font-size: 32px;
     color: #e5b86e;
 }
 
@@ -38,13 +38,13 @@ header {
 }
 
 .brand-name {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
 .brand-sub {
-    font-size: 8px;
+    font-size: 9px;
     color: #888;
     letter-spacing: 2px;
 }
@@ -52,13 +52,13 @@ header {
 nav ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #b0b0b0;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     transition: color 0.3s;
 }
@@ -71,15 +71,20 @@ nav ul li a:hover, nav ul li a.active {
     background: transparent;
     border: 1px solid #e5b86e;
     color: #e5b86e;
-    padding: 8px 15px;
+    padding: 10px 20px;
     border-radius: 6px;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: bold;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     white-space: nowrap;
+}
+
+.btn-appointment:hover {
+    background: #e5b86e;
+    color: #0b0b0b;
 }
 
 /* Hero Section Styles */
@@ -87,7 +92,7 @@ nav ul li a:hover, nav ul li a.active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 60px 50px;
     gap: 40px;
 }
 
@@ -97,18 +102,18 @@ nav ul li a:hover, nav ul li a.active {
 
 .welcome-text {
     color: #e5b86e;
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 2px;
     font-weight: bold;
     display: block;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 .hero-content h1 {
-    font-size: 48px;
+    font-size: 52px;
     line-height: 1.1;
     font-weight: 800;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .gold-text {
@@ -117,43 +122,43 @@ nav ul li a:hover, nav ul li a.active {
 
 .hero-desc {
     color: #a0a0a0;
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
 }
 
 .hero-buttons {
     display: flex;
-    gap: 12px;
-    margin-bottom: 30px;
+    gap: 15px;
+    margin-bottom: 40px;
 }
 
 .btn-primary {
     background-color: #e5b86e;
     color: #0b0b0b;
-    padding: 12px 24px;
+    padding: 14px 28px;
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .btn-secondary {
     background-color: transparent;
     border: 1px solid #333;
     color: #ffffff;
-    padding: 12px 24px;
+    padding: 14px 28px;
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 /* Social Proof */
 .social-proof {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .avatars {
@@ -161,11 +166,11 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 .avatars img {
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
     border-radius: 50%;
     border: 2px solid #0b0b0b;
-    margin-left: -10px;
+    margin-left: -12px;
     object-fit: cover;
 }
 
@@ -181,24 +186,24 @@ nav ul li a:hover, nav ul li a.active {
 .stars {
     color: #e5b86e;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .rating-text {
     color: #888;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 /* Hero Image */
 .hero-image {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .hero-image img {
     width: 100%;
-    max-width: 550px;
+    max-width: 600px;
     height: auto;
     border-radius: 12px;
     object-fit: cover;
@@ -211,100 +216,77 @@ nav ul li a:hover, nav ul li a.active {
     justify-content: space-between;
     background-color: #121212;
     border: 1px solid #1f1f1f;
-    margin: 0 40px 40px 40px;
-    padding: 25px 30px;
+    margin: 0 50px 50px 50px;
+    padding: 30px 40px;
     border-radius: 12px;
-    gap: 15px;
+    gap: 20px;
 }
 
 .feature-item {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 15px;
     flex: 1;
 }
 
 .feature-icon {
-    font-size: 22px;
+    font-size: 26px;
     color: #e5b86e;
     background: #1c1c1c;
-    padding: 12px;
+    padding: 15px;
     border-radius: 10px;
-    min-width: 48px;
+    min-width: 55px;
     text-align: center;
 }
 
-.feature-text h3 {
-    font-size: 12px;
+.feature-item h3 {
+    font-size: 13px;
     font-weight: bold;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     color: #fff;
 }
 
-.feature-text p {
-    font-size: 10px;
+.feature-item p {
+    font-size: 11px;
     color: #888;
 }
 
-/* ================= MOBILE RESPONSIVE FIXES ================= */
+/* Responsive Mobile Styles */
 @media (max-width: 900px) {
     header {
         padding: 15px 20px;
-        flex-direction: column;
-        gap: 15px;
     }
-
+    
     nav {
-        display: none; /* ሜኑውን በሞባይል ለጊዜው በመደበቅ ውበት እንዲኖረው ተደረገ */
-    }
-
-    .header-btn {
-        width: 100%;
-        text-align: center;
-    }
-
-    .btn-appointment {
-        width: 100%;
-        justify-content: center;
+        display: none;
     }
 
     .hero-section {
-        flex-direction: column;
-        padding: 20px;
-        gap: 25px;
+        flex-direction: column-reverse; /* በስልክ ስክሪን ፎቶው ከላይ፣ ጽሑፉ ከታች እንዲሆን */
+        padding: 30px 20px;
+        gap: 30px;
     }
 
     .hero-content {
-        width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .hero-content h1 {
-        font-size: 34px;
+        font-size: 38px;
     }
 
     .hero-buttons {
-        justify-content: center;
         flex-wrap: wrap;
-    }
-
-    .social-proof {
-        justify-content: center;
-    }
-
-    .hero-image {
-        width: 100%;
-        justify-content: center;
     }
 
     .hero-image img {
         max-width: 100%;
-        max-height: 380px;
+        max-height: 400px;
     }
 
     .features-bar {
         flex-direction: column;
-        margin: 10px 20px 30px 20px;
+        margin: 20px 20px 40px 20px;
         padding: 20px;
         gap: 20px;
     }
