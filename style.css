@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px 40px;
     background-color: #0b0b0b;
     border-bottom: 1px solid #1a1a1a;
 }
@@ -28,7 +28,7 @@ header {
 }
 
 .logo-icon {
-    font-size: 32px;
+    font-size: 28px;
     color: #e5b86e;
 }
 
@@ -38,13 +38,13 @@ header {
 }
 
 .brand-name {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
 .brand-sub {
-    font-size: 9px;
+    font-size: 8px;
     color: #888;
     letter-spacing: 2px;
 }
@@ -52,13 +52,13 @@ header {
 nav ul {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 25px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #b0b0b0;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
     transition: color 0.3s;
 }
@@ -71,14 +71,14 @@ nav ul li a:hover, nav ul li a.active {
     background: transparent;
     border: 1px solid #e5b86e;
     color: #e5b86e;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 6px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     white-space: nowrap;
 }
 
@@ -92,7 +92,7 @@ nav ul li a:hover, nav ul li a.active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 50px;
+    padding: 50px 40px;
     gap: 40px;
 }
 
@@ -102,18 +102,18 @@ nav ul li a:hover, nav ul li a.active {
 
 .welcome-text {
     color: #e5b86e;
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: 2px;
     font-weight: bold;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .hero-content h1 {
-    font-size: 52px;
+    font-size: 48px;
     line-height: 1.1;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .gold-text {
@@ -122,43 +122,54 @@ nav ul li a:hover, nav ul li a.active {
 
 .hero-desc {
     color: #a0a0a0;
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 25px;
 }
 
 .hero-buttons {
     display: flex;
-    gap: 15px;
-    margin-bottom: 40px;
+    gap: 12px;
+    margin-bottom: 30px;
 }
 
 .btn-primary {
     background-color: #e5b86e;
     color: #0b0b0b;
-    padding: 14px 28px;
+    padding: 12px 24px;
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #d4a55b;
 }
 
 .btn-secondary {
     background-color: transparent;
     border: 1px solid #333;
     color: #ffffff;
-    padding: 14px 28px;
+    padding: 12px 24px;
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    border-color: #e5b86e;
+    color: #e5b86e;
 }
 
 /* Social Proof */
 .social-proof {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 .avatars {
@@ -166,11 +177,11 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 .avatars img {
-    width: 38px;
-    height: 38px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     border: 2px solid #0b0b0b;
-    margin-left: -12px;
+    margin-left: -10px;
     object-fit: cover;
 }
 
@@ -186,15 +197,15 @@ nav ul li a:hover, nav ul li a.active {
 .stars {
     color: #e5b86e;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .rating-text {
     color: #888;
-    font-size: 12px;
+    font-size: 11px;
 }
 
-/* Hero Image */
+/* Hero Image - የሐኪሙ ፎቶ ትክክለኛ ማስተካከያ */
 .hero-image {
     flex: 1;
     display: flex;
@@ -203,7 +214,7 @@ nav ul li a:hover, nav ul li a.active {
 
 .hero-image img {
     width: 100%;
-    max-width: 600px;
+    max-width: 580px;
     height: auto;
     border-radius: 12px;
     object-fit: cover;
@@ -216,77 +227,80 @@ nav ul li a:hover, nav ul li a.active {
     justify-content: space-between;
     background-color: #121212;
     border: 1px solid #1f1f1f;
-    margin: 0 50px 50px 50px;
-    padding: 30px 40px;
+    margin: 0 40px 40px 40px;
+    padding: 25px 30px;
     border-radius: 12px;
-    gap: 20px;
+    gap: 15px;
 }
 
 .feature-item {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
     flex: 1;
 }
 
 .feature-icon {
-    font-size: 26px;
+    font-size: 22px;
     color: #e5b86e;
     background: #1c1c1c;
-    padding: 15px;
+    padding: 12px;
     border-radius: 10px;
-    min-width: 55px;
+    min-width: 48px;
     text-align: center;
 }
 
 .feature-item h3 {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
     color: #fff;
 }
 
 .feature-item p {
-    font-size: 11px;
+    font-size: 10px;
     color: #888;
 }
 
-/* Responsive Mobile Styles */
+/* ================= MOBILE RESPONSIVE FIXES ================= */
 @media (max-width: 900px) {
     header {
         padding: 15px 20px;
     }
-    
+
     nav {
-        display: none;
+        display: none; /* በስልክ ስክሪን ሜኑውን በመደበቅ ቦታ ማስለቀቅ */
     }
 
     .hero-section {
         flex-direction: column-reverse; /* በስልክ ስክሪን ፎቶው ከላይ፣ ጽሑፉ ከታች እንዲሆን */
-        padding: 30px 20px;
-        gap: 30px;
+        padding: 20px;
+        gap: 25px;
     }
 
     .hero-content {
+        width: 100%;
         text-align: left;
     }
 
     .hero-content h1 {
-        font-size: 38px;
+        font-size: 34px;
     }
 
-    .hero-buttons {
-        flex-wrap: wrap;
+    .hero-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .hero-image img {
-        max-width: 100%;
+        width: 100%;
         max-height: 400px;
     }
 
     .features-bar {
         flex-direction: column;
-        margin: 20px 20px 40px 20px;
+        margin: 10px 20px 30px 20px;
         padding: 20px;
         gap: 20px;
     }
