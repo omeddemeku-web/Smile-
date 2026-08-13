@@ -1,108 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmilePro Dental Clinic</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SmilePro Dental Clinic</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <div class="logo-container">
-            <i class="fa-solid fa-tooth logo-icon"></i>
-            <div class="logo-text">
-                <span class="brand-name">SmilePro</span>
-                <span class="brand-sub">DENTAL CLINIC</span>
-            </div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#" class="active">HOME</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">TEAM</a></li>
-                <li><a href="#">GALLERY</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
-        <div class="header-btn">
-            <a href="#" class="btn-appointment"><i class="fa-regular fa-calendar"></i> BOOK APPOINTMENT</a>
-        </div>
-    </header>
+<header>
+  <div class="logo">
+    <div class="tooth">♡</div>
+    <div>
+      <h2>SmilePro</h2>
+      <span>DENTAL CLINIC</span>
+    </div>
+  </div>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-content">
-            <span class="welcome-text">WELCOME TO SMILEPRO</span>
-            <h1>Your <span class="gold-text">Smile</span><br>Our Passion</h1>
-            <p class="hero-desc">Modern dentistry with a gentle touch. Healthy teeth, happy life.</p>
-            
-            <div class="hero-buttons">
-                <a href="#" class="btn-primary">BOOK APPOINTMENT</a>
-                <a href="#" class="btn-secondary">OUR SERVICES</a>
-            </div>
+  <nav>
+    <a href="#home" class="active">HOME</a>
+    <a href="#about">ABOUT US</a>
+    <a href="#services">SERVICES</a>
+    <a href="#team">TEAM</a>
+    <a href="#gallery">GALLERY</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
 
-            <div class="social-proof">
-                <div class="avatars">
-                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100" alt="Patient">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100" alt="Patient">
-                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100" alt="Patient">
-                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100" alt="Patient">
-                </div>
-                <div class="rating-info">
-                    <span class="stars">★ 4.9</span>
-                    <span class="rating-text">From 1,200+ Happy Patients</span>
-                </div>
-            </div>
-        </div>
+  <a href="#appointment" class="appointment-top">
+    📅 &nbsp; BOOK APPOINTMENT
+  </a>
+</header>
 
-        <!-- ትክክለኛው የሀኪሙ እና በሽተኛው ፎቶ -->
-        <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800" alt="Dentist and Patient">
-        </div>
-    </section>
 
-    <!-- Features Bar Section -->
-    <section class="features-bar">
-        <div class="feature-item">
-            <i class="fa-solid fa-tooth feature-icon"></i>
-            <div>
-                <h3>Advanced Technology</h3>
-                <p>Modern equipment for precise care</p>
-            </div>
-        </div>
-        <div class="feature-item">
-            <i class="fa-regular fa-user feature-icon"></i>
-            <div>
-                <h3>Expert Dentists</h3>
-                <p>Experienced & caring dental professionals</p>
-            </div>
-        </div>
-        <div class="feature-item">
-            <i class="fa-regular fa-heart feature-icon"></i>
-            <div>
-                <h3>Painless Treatment</h3>
-                <p>Comfortable care with minimal pain</p>
-            </div>
-        </div>
-        <div class="feature-item">
-            <i class="fa-solid fa-shield-halved feature-icon"></i>
-            <div>
-                <h3>Quality Materials</h3>
-                <p>High-quality materials for long-lasting results</p>
-            </div>
-        </div>
-        <div class="feature-item">
-            <i class="fa-solid fa-dollar-sign feature-icon"></i>
-            <div>
-                <h3>Affordable Pricing</h3>
-                <p>Quality care that fits your budget</p>
-            </div>
-        </div>
-    </section>
+<section id="home" class="hero">
+
+  <div class="hero-text">
+
+    <p class="welcome">WELCOME TO SMILEPRO</p>
+
+    <h1>
+      Your <span>Smile</span><br>
+      Our Passion
+    </h1>
+
+    <div class="gold-line"></div>
+
+    <p class="description">
+      Modern dentistry with a gentle touch.<br>
+      Healthy teeth, happy life.
+    </p>
+
+    <div class="buttons">
+      <a href="#appointment" class="btn gold">
+        📅 &nbsp; BOOK APPOINTMENT
+      </a>
+
+      <a href="#services" class="btn dark">
+        ♢ &nbsp; OUR SERVICES
+      </a>
+    </div>
+
+    <div class="rating">
+
+      <div class="faces">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100">
+        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100">
+      </div>
+
+      <div>
+        <strong>⭐ 4.9</strong>
+        <small>From 1,200+ Happy Patients</small>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="hero-image">
+
+    <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1200&q=90">
+
+  </div>
+
+</section>
+
+
+<section class="features">
+
+  <div class="feature">
+    <div class="icon">♧</div>
+    <div>
+      <h3>Advanced<br>Technology</h3>
+      <p>Modern equipment<br>for precise care</p>
+    </div>
+  </div>
+
+  <div class="feature">
+    <div class="icon">♙</div>
+    <div>
+      <h3>Expert<br>Dentists</h3>
+      <p>Experienced & caring<br>dental professionals</p>
+    </div>
+  </div>
+
+  <div class="feature">
+    <div class="icon">♡</div>
+    <div>
+      <h3>Painless<br>Treatment</h3>
+      <p>Comfortable care<br>with minimal pain</p>
+    </div>
+  </div>
+
+  <div class="feature">
+    <div class="icon">♢</div>
+    <div>
+      <h3>Quality<br>Materials</h3>
+      <p>High-quality materials<br>for long-lasting results</p>
+    </div>
+  </div>
+
+  <div class="feature">
+    <div class="icon">$</div>
+    <div>
+      <h3>Affordable<br>Pricing</h3>
+      <p>Quality care that<br>fits your budget</p>
+    </div>
+  </div>
+
+</section>
+
+
+<section id="about" class="section">
+
+  <div class="section-image">
+    <img src="https://images.unsplash.com/photo-1588776814546-daab30f310ce?w=900">
+  </div>
+
+  <div class="section-content">
+    <span>ABOUT SMILEPRO</span>
+
+    <h2>Professional Care<br>For Your Perfect Smile</h2>
+
+    <p>
+      At SmilePro Dental Clinic, we combine modern technology,
+      experienced dentists and gentle care to give every patient
+      a confident and healthy smile.
+    </p>
+
+    <a href="#appointment" class="btn gold">LEARN MORE</a>
+  </div>
+
+</section>
+
+
+<section id="services" class="services">
+
+  <div class="title">
+    <span>OUR SERVICES</span>
+    <h2>Complete Dental Care</h2>
+    <p>Everything you need for a healthy and beautiful smile.</p>
+  </div>
+
+  <div class="service-grid">
+
+    <div class="card">
+      <div>🦷</div>
+      <h3>Teeth Cleaning</h3>
+      <p>Professional cleaning for healthier and brighter teeth.</p>
+    </div>
+
+    <div class="card">
+      <div>✨</div>
+      <h3>Teeth Whitening</h3>
+      <p>Get a brighter and more confident smile.</p>
+    </div>
+
+    <div class="card">
+      <div>😁</div>
+      <h3>Dental Implants</h3>
+      <p>Natural-looking solutions for missing teeth.</p>
+    </div>
+
+    <div class="card">
+      <div>🦷</div>
+      <h3>Braces</h3>
+      <p>Straighten your teeth with modern orthodontic care.</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="team" class="team">
+
+  <div class="title">
+    <span>OUR TEAM</span>
+    <h2>Meet Our Dentists</h2>
+  </div>
+
+  <div class="team-grid">
+
+    <div class="doctor">
+      <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600">
+      <h3>Dr. Michael Smith</h3>
+      <p>Dental Surgeon</p>
+    </div>
+
+    <div class="doctor">
+      <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=600">
+      <h3>Dr. Sarah Wilson</h3>
+      <p>Orthodontist</p>
+    </div>
+
+    <div class="doctor">
+      <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600">
+      <h3>Dr. Emily Johnson</h3>
+      <p>Cosmetic Dentist</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="gallery" class="gallery">
+
+  <div class="title">
+    <span>OUR GALLERY</span>
+    <h2>Inside SmilePro</h2>
+  </div>
+
+  <div class="gallery-grid">
+
+    <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800">
+    <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800">
+    <img src="https://images.unsplash.com/photo-1606265752439-1f18756aa2c0?w=800">
+    <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800">
+
+  </div>
+
+</section>
+
+
+<section id="appointment" class="appointment">
+
+  <div>
+    <span>BOOK YOUR VISIT</span>
+    <h2>Ready For Your<br><b>Perfect Smile?</b></h2>
+    <p>Schedule your appointment today.</p>
+  </div>
+
+  <a href="mailto:smilepro@example.com" class="btn gold">
+    📅 &nbsp; BOOK APPOINTMENT
+  </a>
+
+</section>
+
+
+<footer id="contact">
+
+  <div class="footer-logo">
+    <h2>SmilePro</h2>
+    <p>DENTAL CLINIC</p>
+  </div>
+
+  <div>
+    <h3>Contact</h3>
+    <p>📍 Addis Ababa, Ethiopia</p>
+    <p>📞 +251 900 000 000</p>
+    <p>✉ smilepro@example.com</p>
+  </div>
+
+  <div>
+    <h3>Opening Hours</h3>
+    <p>Mon - Fri: 8:00 AM - 6:00 PM</p>
+    <p>Saturday: 9:00 AM - 4:00 PM</p>
+    <p>Sunday: Closed</p>
+  </div>
+
+</footer>
+
+<div class="copyright">
+  © 2026 SmilePro Dental Clinic. All Rights Reserved.
+</div>
 
 </body>
 </html>
